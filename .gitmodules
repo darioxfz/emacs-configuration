@@ -34,3 +34,12 @@
 [submodule ".emacs.d/plugins/popup"]
 	path = .emacs.d/plugins/popup
 	url = https://github.com/auto-complete/popup-el.git
+[submodule ".emacs.d/plugins/pymacs"]
+	path = .emacs.d/plugins/pymacs
+	url = https://github.com/pinard/Pymacs.git
+[submodule ".emacs.d/plugins/smart-operator"]
+	path = .emacs.d/plugins/smart-operator
+	url = https://github.com/xwl/smart-operator.git
+[submodule ".emacs.d/plugins/yasnippet"]
+	path = .emacs.d/plugins/yasnippet
+	url = https://github.com/capitaomorte/yasnippet.git
