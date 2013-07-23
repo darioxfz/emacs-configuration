@@ -1,0 +1,3 @@
+[submodule ".emacs.d/plugins/ido-vertical-mode"]
+	path = .emacs.d/plugins/ido-vertical-mode
+	url = https://github.com/rson/ido-vertical-mode.el.git
