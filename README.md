@@ -1,11 +1,12 @@
-# emacs-configuration
-============================
+# emacs-configuration #
+=======================
+
 Has been a long time since i wanted to use emacs as my text editor but never had the time
 to properly configure it until now.
 
 Ive started my configuration with base on [jhamrick](https://raw.github.com/jhamrick/emacs) configuration.
 
-#Extensions
+# Extensions #
 * [Solarized Color Theme](https://github.com/sellout/emacs-color-theme-solarized)
 		* colorscheme
 * [auto-complete](https://github.com/auto-complete/auto-complete.git)
@@ -36,4 +37,8 @@ Ive started my configuration with base on [jhamrick](https://raw.github.com/jham
 		* allows both-way communication between emacs list and python
 * [smart-operator](https://github.com/xwl/smart-operator.git)
 		* automatically insert operators with surrounding spaces
+* [yasnippet](https://github.com/capitaomorte/yasnippet.git)
+		* template system for emacs
+		
+
 

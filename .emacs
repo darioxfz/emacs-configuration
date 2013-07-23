@@ -17,15 +17,15 @@
 (require 'autopair)
 
 ;; MuMaMo
-;(load (make-plugin-path "nxhtml/autostart.el"))
+(load (make-plugin-path "nxhtml/autostart.el"))
 ;; Workaround the annoying warnings:
 ;;    Warning (mumamo-per-buffer-local-vars):
 ;;    Already 'permanent-local t: buffer-file-name
-;(when (and (equal emacs-major-version 24)
-;           (equal emacs-minor-version 3))
-;  (eval-after-load "mumamo"
-;    '(setq mumamo-per-buffer-local-vars
- ;          (delq 'buffer-file-name mumamo-per-buffer-local-vars))))
+(when (and (equal emacs-major-version 24)
+           (equal emacs-minor-version 3))
+  (eval-after-load "mumamo"
+    '(setq mumamo-per-buffer-local-vars
+          (delq 'buffer-file-name mumamo-per-buffer-local-vars))))
 
 ;; Popup
 (include-plugin "popup")
@@ -57,6 +57,11 @@
 
 ;; Auto complete
 (require 'auto-complete-settings)
+
+;; Yasniippet
+(include-plugin "yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
 
 ;; Camelcase functions
 (require 'camelcase-settings)
