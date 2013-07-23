@@ -30,7 +30,7 @@
 	url = git://jblevins.org/git/markdown-mode.git
 [submodule ".emacs.d/plugins/nxhtml"]
 	path = .emacs.d/plugins/nxhtml
-	url = https://github.com/emacsmirror/nxhtml.gi
+	url = https://github.com/emacsmirror/nxhtml.git
 [submodule ".emacs.d/plugins/popup"]
 	path = .emacs.d/plugins/popup
 	url = https://github.com/auto-complete/popup-el.git
