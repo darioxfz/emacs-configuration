@@ -8,7 +8,11 @@
   (interactive)
   (let ((fill-column (point-max)))
     (fill-paragraph nil)))
-
+; use temp folders as the default location for # and ~ files
+(setq backup-directory-alist
+      `((".*" . ,temporary-file-directory)))
+(setq auto-save-file-name-transforms
+      `((".*" ,temporary-file-directory t)))
 ; unfill a region, i.e., make is so the text in that region does not
 ; wrap
 (defun unfill-region ()
