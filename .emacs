@@ -8,6 +8,20 @@
 (require 'cursor-settings)
 (require 'text-settings)
 
+;; Ido mode
+(require 'ido)
+(ido-mode 1)
+
+;; Ido  Vertical  Mode
+(include-plugin "ido-vertical-mode")
+(require 'ido-vertical-mode)
+(ido-vertical-mode 1)
+
+;; ido ubiquitous
+(include-plugin "ido-ubiquitous")
+(require 'ido-ubiquitous)
+(ido-ubiquitous-mode 1)
+
 ;; Smart Operator
 (include-plugin "smart-operator")
 (require 'smart-operator)
@@ -15,7 +29,7 @@
 ;; Autopair
 (include-plugin "autopair")
 (require 'autopair)
-
+(autopair-global-mode)
 ;; MuMaMo
 (load (make-plugin-path "nxhtml/autostart.el"))
 ;; Workaround the annoying warnings:
@@ -30,10 +44,6 @@
 ;; Popup
 (include-plugin "popup")
 (require 'popup)
-
-;; Ido mode
-(require 'ido)
-(ido-mode 1)
 
 ;; Markdown mode
 (include-plugin "markdown-mode")

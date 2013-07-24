@@ -27,7 +27,7 @@ Ive started my configuration with base on [jhamrick](https://raw.github.com/jham
 	* EPC
 * [magit](https://github.com/magit/magit.git)
 		* Git interface for emacs
-* [markdown-mode](https://github.com/magit/magit.git)
+* [markdown-mode](https://github.com/markdownmode)
 		* Markdown formatted text extension
 * [nxhtml](https://github.com/emacsmirror/nxhtml)
 		* Emacs mode for Web Development
@@ -39,6 +39,12 @@ Ive started my configuration with base on [jhamrick](https://raw.github.com/jham
 		* automatically insert operators with surrounding spaces
 * [yasnippet](https://github.com/capitaomorte/yasnippet.git)
 		* template system for emacs
-		
+
+* [ido-vertical-mode](https://github.com/rson/ido-vertical-mode.el.git)
+		* Makes ido-mode display vertically
+
+* [ ido-ubiquitous](https://github.com/DarwinAwardWinner/ido-ubiquitous.git)
+		* ido completion everywhere
+
 
 

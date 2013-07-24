@@ -43,3 +43,6 @@
 [submodule ".emacs.d/plugins/yasnippet"]
 	path = .emacs.d/plugins/yasnippet
 	url = https://github.com/capitaomorte/yasnippet.git
+[submodule ".emacs.d/plugins/ido-ubiquitous"]
+	path = .emacs.d/plugins/ido-ubiquitous
+	url = https://github.com/DarwinAwardWinner/ido-ubiquitous.git
