@@ -3,11 +3,9 @@
 ;-------------------------;
 ; text decoration
 (require 'font-lock)
-;(setq font-lock-maximum-decoration 1)
-(global-font-lock-mode 1)
-(global-hi-lock-mode -1)
-(setq jit-lock-contextually 1)
-(setq jit-lock-stealth-verbose 1)
+; change the default font to anonymous pro
+(defvar default-font "Anonymous Pro-14" "My default Emacs font.")
+(set-frame-font default-font nil t)
 
 ; if there is size information associated with text, change the text
 ; size to reflect it
