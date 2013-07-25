@@ -12,11 +12,6 @@
 (require 'ido)
 (ido-mode 1)
 
-;; Ido  Vertical  Mode
-(include-plugin "ido-vertical-mode")
-(require 'ido-vertical-mode)
-(ido-vertical-mode 1)
-
 ;; ido ubiquitous
 (include-plugin "ido-ubiquitous")
 (require 'ido-ubiquitous)
