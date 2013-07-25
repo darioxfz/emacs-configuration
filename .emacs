@@ -25,6 +25,7 @@
 (include-plugin "autopair")
 (require 'autopair)
 (autopair-global-mode)
+
 ;; MuMaMo
 (load (make-plugin-path "nxhtml/autostart.el"))
 ;; Workaround the annoying warnings:

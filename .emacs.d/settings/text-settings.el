@@ -3,9 +3,13 @@
 ;-------------------------;
 ; text decoration
 (require 'font-lock)
+
 ; change the default font to anonymous pro
 (defvar default-font "Anonymous Pro-14" "My default Emacs font.")
 (set-frame-font default-font nil t)
+
+; show line numbers
+(global-linum-mode 1)
 
 ; if there is size information associated with text, change the text
 ; size to reflect it
