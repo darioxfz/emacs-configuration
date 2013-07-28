@@ -32,6 +32,10 @@
 (include-plugin "popup")
 (require 'popup)
 
+;; Web-Mode
+(include-plugin "web-mode")
+(require 'web-mode)
+
 ;; Markdown mode
 (include-plugin "markdown-mode")
 (autoload 'markdown-mode "markdown-mode.el"

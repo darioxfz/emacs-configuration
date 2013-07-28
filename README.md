@@ -28,8 +28,6 @@ to properly configure it until now.
 		* Git interface for emacs
 * [markdown-mode](https://github.com/markdownmode)
 		* Markdown formatted text extension
-* [nxhtml](https://github.com/emacsmirror/nxhtml)
-		* Emacs mode for Web Development
 * [popup](https://github.com/auto-complete/popup-el.git)
 		* visual popup user interface library
 * [pymacs](https://github.com/pinard/Pymacs.git)
@@ -39,10 +37,18 @@ to properly configure it until now.
 * [yasnippet](https://github.com/capitaomorte/yasnippet.git)
 		* template system for emacs
 * [ ido-ubiquitous](https://github.com/DarwinAwardWinner/ido-ubiquitous.git)
-		* ido completion everywhere
-
+ 		* ido completion everywhere
+* [ web-mode ](https://github.com/fxbois/web-mode.git)
+ 		* ido completion everywhere
 
 
 # Aditional Packages #
 
 Anonymous Pro-14
+
+
+
+
+
+
+
