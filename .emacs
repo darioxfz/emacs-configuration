@@ -87,6 +87,10 @@
 (include-plugin "magit")
 (require 'magit)
 
+;; Lua-Mode
+(include-plugin "lua-mode")
+(require 'lua-mode)
+
 ;; Put auto 'custom' changes in a separate file
 (load 
  (setq custom-file (expand-file-name "settings/custom.el" user-emacs-directory))
