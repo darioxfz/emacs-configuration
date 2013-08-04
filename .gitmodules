@@ -52,3 +52,6 @@
 [submodule ".emacs.d/plugins/lua-mode"]
 	path = .emacs.d/plugins/lua-mode
 	url = https://github.com/immerrr/lua-mode.git
+[submodule ".emacs.d/plugins/python-mode"]
+	path = .emacs.d/plugins/python-mode
+	url = https://github.com/darioxfz/python-mode.git
