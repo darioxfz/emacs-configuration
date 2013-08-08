@@ -51,6 +51,8 @@ Anonymous Pro-14
 lua-mode
 https://github.com/immerrr/lua-mode.git
 
+undo-tree
 
+ace-jump
 
 
