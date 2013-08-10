@@ -8,6 +8,10 @@
 (require 'cursor-settings)
 (require 'text-settings)
 
+;;Elpa repos
+(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+                         ("marmalade" . "http://marmalade-repo.org/packages/")
+                         ("melpa" . "http://melpa.milkbox.net/packages/")))
 ;; Ido mode
 (require 'ido)
 (setq ido-enable-flex-matching t)
